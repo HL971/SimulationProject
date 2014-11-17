@@ -8,8 +8,6 @@ namespace JDK
 
 	class randomNumberGeneration
 	{
-	private:
-		unsigned int roll();
 	public:
 		randomNumberGeneration();
 		int rollD20();

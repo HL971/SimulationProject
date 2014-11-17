@@ -7,11 +7,11 @@ namespace JDK{
 	static int seed;
 
 	/*******************************************************
-	* JDK::randomNumberGeneration::roll()
+	* roll()
 	*
 	* Randomly generates a number
 	*******************************************************/
-	unsigned int randomNumberGeneration::roll()
+	unsigned int roll()
 	{
 		seed ^= seed << 5;
 		seed ^= seed >> 9;
